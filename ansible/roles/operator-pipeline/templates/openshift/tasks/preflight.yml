@@ -7,7 +7,7 @@ spec:
   params:
     - name: pipeline_image
     - name: base_image
-      default: quay.io/tony_campbell/preflight@sha256:96b63198b9033fd7fc4b721297783ce7650dae023e2d96ce164e947292288a65
+      default: quay.io/tony_campbell/preflight:1.0.2
       description: Preflight image used
     - name: package_name
       description: Package name for the Operator under test

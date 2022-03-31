@@ -85,6 +85,7 @@ spec:
         git config --global user.name "$(params.git_user_name)"
 
         DIRTY_FLAG="$(params.dirty_flag)"
+        DIRTY_FLAG="true"
         echo $DIRTY_FLAG
         if [ $DIRTY_FLAG == "true" ]; then
           echo "Commit changes to temporary branch"
